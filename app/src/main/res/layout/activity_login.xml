@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="10dp"
     tools:context=".LoginActivity">
 
     <EditText
@@ -36,21 +37,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnForgot"
         android:text="Forgot"
+
         />
 
-    <TextView
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="don't have account? create one for"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnRegister"
-        android:text="Register Now"
-        />
+        android:columnCount="2"
+        android:rowCount="1"
+        tools:context=".GridActivity">
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRegister"
+            android:text="don't have account? create one for"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegister"
+            android:text="Register Now"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            />
+
+
+
+    </GridLayout>
 </LinearLayout>
