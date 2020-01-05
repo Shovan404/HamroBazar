@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +11,14 @@
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:id="@+id/imgProfile"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_image_black_24dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -133,6 +145,7 @@
         />
 
     <Button
+        android:id="@+id/btnRregister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -141,9 +154,5 @@
         android:background="@color/colorPrimary"
         />
 
-
-
-
-
-
 </LinearLayout>
+</ScrollView>

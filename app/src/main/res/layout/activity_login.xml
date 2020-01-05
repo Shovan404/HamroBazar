@@ -45,7 +45,7 @@
         android:textColor="#ffffff"
         android:background="#9E1A1A"
         android:textSize="16sp"
-        android:layout_marginLeft="114dp"
+        android:layout_marginHorizontal="144dp"
         />
 
     <GridLayout
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvRegister"
-            android:text="anddon't have account? create one for"
+            android:text="don't have account? create one for free"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textStyle="bold"
