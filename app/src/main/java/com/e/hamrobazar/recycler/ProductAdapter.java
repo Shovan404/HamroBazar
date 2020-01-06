@@ -7,7 +7,5 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class ProductAdapter {
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
 
-    }
 }
