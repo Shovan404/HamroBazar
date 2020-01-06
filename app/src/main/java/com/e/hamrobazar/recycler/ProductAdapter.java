@@ -1,4 +1,4 @@
 package com.e.hamrobazar.recycler;
 
-public class ProductAdapter {
+public class ProductAdapter {//k
 }
