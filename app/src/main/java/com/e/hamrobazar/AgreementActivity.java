@@ -52,6 +52,14 @@ public class AgreementActivity extends AppCompatActivity {
             }
         });
 
+        btnAgree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AgreementActivity.this,LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

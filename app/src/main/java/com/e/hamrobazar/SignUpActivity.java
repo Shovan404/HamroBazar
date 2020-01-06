@@ -18,7 +18,7 @@ public class SignUpActivity extends AppCompatActivity {
     private CheckBox cb1, cb2, cb3;
     private Button btnRregister;
     private ImageView imgProfile;
-    private EditText etREmail, etName, etRPassword, etRCPassword, etPhone, etAddress;
+    private EditText etREmail, etName, etRPassword, etRCPassword, etPhone, etMphone, etAddress, etAddress1, etAddress2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,8 @@ public class SignUpActivity extends AppCompatActivity {
         etRCPassword=findViewById(R.id.etRCPassword);
         etPhone=findViewById(R.id.etPhone);
         etAddress=findViewById(R.id.etAddress);
+        etAddress1=findViewById(R.id.etAddress1);
+        etAddress2=findViewById(R.id.etAddress2);
         cb1=findViewById(R.id.cb1);
         cb2=findViewById(R.id.cb2);
         cb3=findViewById(R.id.cb3);
